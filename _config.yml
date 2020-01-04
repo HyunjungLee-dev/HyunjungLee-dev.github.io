@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "HJ Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Hyunjung Lee"
+name                     : "HJ Blog"
 description              : "An amazing website."
 url                      : "https://hyunjunglee-dev.github.io/" # the base hostname & protocol for your site e.g. 
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Hyunjung Lee"
-  avatar           : "/assets/images/bio-photo-2.jpg" # path of avatar image, e.g. 
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. 
   bio              : "I am an **amazing** person."
   location         : "Ulsan, korea"
   email            :
