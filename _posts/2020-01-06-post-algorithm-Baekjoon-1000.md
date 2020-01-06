@@ -1,6 +1,8 @@
 ---
 title:  "[BAEKJOON 백준]1000번 A+B"
 comments: true
+toc : true
+toc_sticky : true
 categories:
   - algorithm
 tags:
@@ -9,7 +11,9 @@ tags:
   - algorithm
 ---
 
-## [Baekjoon Online Judge 1000] (https://www.acmicpc.net/problemset)
+## Baekjoon Online Judge No.1000
+
+https://www.acmicpc.net/problem/1000
 
 
 
@@ -17,19 +21,27 @@ tags:
 
 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
 
+
+
 ## 입력
 
 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
 
+
+
 ## 출력
 
 첫째 줄에 A+B를 출력한다.
+
+
 
 ## 예제 입력 
 
 ```markdown
 1 2
 ```
+
+
 
 ## 예제 출력
 
