@@ -13,7 +13,7 @@ tags:
   - data structure
 ---
 
-<img src="D:\자료구조-이미지\0002.jpg" style="zoom: 200%;" />
+<img src="D:\Github\HyunjungLee-dev.github.io\_posts\이미지\0002.jpg" style="zoom: 200%;" />
 
 # 순차 리스트
 
@@ -29,7 +29,7 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
 
 ### 2. 배열의 용어
 
-![](D:\자료구조-이미지\배열용어.gif)
+![](D:\Github\HyunjungLee-dev.github.io\_posts\이미지\배열용어.gif)
 
 - index : 전체 집단에서 데이터를 식별 해주는 역할을 하는 값
 - value : 배열에 저장 된 값
@@ -37,7 +37,7 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
 
 ### 3. 배열의 한계
 
-![](D:\자료구조-이미지\배열의한계.gif)
+![](D:\Github\HyunjungLee-dev.github.io\_posts\이미지\배열의한계.gif)
 
 
 
@@ -50,7 +50,7 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
 
   
 
-![배열의한계2](D:\자료구조-이미지\배열의한계2.gif)
+![배열의한계2](D:\Github\HyunjungLee-dev.github.io\_posts\이미지\배열의한계2.gif)
 
 
 
@@ -88,11 +88,19 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
   
     
 
-
-
 ## 참고
 
 - [생활코딩-배열](https://opentutorials.org/module/1335/8677)
 - [초보몽키의 개발공부로그](https://wayhome25.github.io/cs/2017/04/17/cs-18-1/)
-
 - [정보통신기술용어해설 ](http://www.ktword.co.kr/abbr_view.php?m_temp1=3979)
+
+
+
+
+
+------
+
+**오류가 있으면 댓글로 알려주세요.**
+
+**이 포스트는 비정기적으로 내용이 추가/수정/삭제 될 수 있습니다.**
+
