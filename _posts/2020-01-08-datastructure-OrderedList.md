@@ -13,7 +13,7 @@ tags:
   - data structure
 ---
 
-<img src="D:\Github\HyunjungLee-dev.github.io\_posts\이미지\0002.jpg" style="zoom: 200%;" />
+<img src="D:\Github\HyunjungLee-dev.github.io\_posts\image\0002.jpg" alt="0002" style="zoom:200%;" />
 
 # 순차 리스트
 
@@ -29,7 +29,7 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
 
 ### 2. 배열의 용어
 
-![](D:\Github\HyunjungLee-dev.github.io\_posts\이미지\배열용어.gif)
+![003](D:\Github\HyunjungLee-dev.github.io\_posts\image\003.gif)
 
 - index : 전체 집단에서 데이터를 식별 해주는 역할을 하는 값
 - value : 배열에 저장 된 값
@@ -37,9 +37,7 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
 
 ### 3. 배열의 한계
 
-![](D:\Github\HyunjungLee-dev.github.io\_posts\이미지\배열의한계.gif)
-
-
+![004](D:\Github\HyunjungLee-dev.github.io\_posts\image\004.gif)
 
 - 배열은 인덱스에 따라서 값을 유지하기 때문에, 원소가 삭제 되었을때 빈자리가 남게 된다.
 
@@ -50,7 +48,7 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
 
   
 
-![배열의한계2](D:\Github\HyunjungLee-dev.github.io\_posts\이미지\배열의한계2.gif)
+![005](D:\Github\HyunjungLee-dev.github.io\_posts\image\005.gif)
 
 
 
@@ -100,7 +98,7 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
 
 ------
 
-**오류가 있으면 댓글로 알려주세요.**
+오류가 있으면 댓글로 알려주세요.
 
-**이 포스트는 비정기적으로 내용이 추가/수정/삭제 될 수 있습니다.**
+이 포스트는 비정기적으로 내용이 추가/수정/삭제 될 수 있습니다.
 
