@@ -13,7 +13,7 @@ tags:
   - data structure
 ---
 
-![002](./image/0002.jpg)
+![0002](https://user-images.githubusercontent.com/54986748/71999988-b6f88180-3285-11ea-9a9a-09ce268b2e32.jpg)
 
 # 순차 리스트
 
@@ -29,7 +29,7 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
 
 ### 2. 배열의 용어
 
-![003](./image/003.gif)
+![003](https://user-images.githubusercontent.com/54986748/72000040-c972bb00-3285-11ea-866f-e51fd578697d.gif)
 
 - index : 전체 집단에서 데이터를 식별 해주는 역할을 하는 값
 - value : 배열에 저장 된 값
@@ -37,7 +37,7 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
 
 ### 3. 배열의 한계
 
-![004](./image/004.gif)
+![004](https://user-images.githubusercontent.com/54986748/72000050-cf689c00-3285-11ea-99dc-a7311c85eb19.gif)
 
 - 배열은 인덱스에 따라서 값을 유지하기 때문에, 원소가 삭제 되었을때 빈자리가 남게 된다.
 
@@ -48,7 +48,7 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
 
   
 
-![005](./image/005.gif)
+![005](https://user-images.githubusercontent.com/54986748/72000057-d42d5000-3285-11ea-997c-7be64cedb022.gif)
 
 
 
