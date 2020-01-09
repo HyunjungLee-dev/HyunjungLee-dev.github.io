@@ -10,5 +10,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title : "TIL"
+    url : "https://hyunjung-til.netlify.com"
   - title : "Category"
     url : /categories/
