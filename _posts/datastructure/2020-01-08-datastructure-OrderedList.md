@@ -1,5 +1,5 @@
 ---
-title:  "[자료구조]순차 리스트(Ordered List)"
+title:  "[data structure]순차 리스트(Ordered List)"
 comments: true
 toc : true
 toc_sticky : true

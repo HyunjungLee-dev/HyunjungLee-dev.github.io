@@ -1,11 +1,11 @@
 ---
-title:  "[자료구조]연결 리스트(Linked List)"
+title:"[data structure]연결 리스트(Linked List)"
 comments: true
 toc : true
 toc_sticky : true
 categories:
   - data structure
-    tags:
+tags:
   - List
   - Linked list
   - C++
