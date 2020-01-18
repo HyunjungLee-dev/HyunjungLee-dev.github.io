@@ -4,9 +4,8 @@ comments: true
 toc : true
 toc_sticky : true
 categories:
-
   - algorithm
-    tags:
+tags:
   - Baekjoon
   - C++
   - algorithm
