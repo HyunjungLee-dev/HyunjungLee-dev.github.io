@@ -83,16 +83,25 @@ List(리스트)는 LinkedList만을 의미하는 것이 아니다. 리스트는 
 - 배열의 길이가 초기에 결정되어야 하기에 배열의 길이 변경은 불가능하다.
 - 삭제의 과정에서 데이터의 이동(복사)가 매우 빈번히 일어난다.
   - 데이터의 추가와 삭제가 느리다.
-  
-    
 
-## 참고
+## 순차 리스트의 구현
+
+### List 자료 구조의 ADT
+
+- Void ListInit(List* plist); - 초기화
+- void LInsert(List* plist, LData data); - 삽입
+- int LFirst(List* plistm LData data); - 조회(첫 번째)
+- int LNext(List* plist, LData data); - 조회
+- LData LRemove(List* plist); - 삭제
+- int LCount(List* plist); - 데이터 수 검색
+
+## Reference
 
 - [생활코딩-배열](https://opentutorials.org/module/1335/8677)
 - [초보몽키의 개발공부로그](https://wayhome25.github.io/cs/2017/04/17/cs-18-1/)
 - [정보통신기술용어해설 ](http://www.ktword.co.kr/abbr_view.php?m_temp1=3979)
 
-
+- 아텐츠 게임 아카데미 수업 자료
 
 
 

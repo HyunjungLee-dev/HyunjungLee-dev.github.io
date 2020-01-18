@@ -1,5 +1,5 @@
 ---
-title:"[data structure]연결 리스트(Linked List)"
+title:  "[data structure]연결 리스트(Linked List)"
 comments: true
 toc : true
 toc_sticky : true
@@ -54,6 +54,93 @@ typedef struct _node
 
 
 
+## 연결 리스트의 구현
+
+**<연결 리스트의 개념을 이해하기 위한 코드>**
+
+### 초기화
+
+```C++
+	Node * head = NULL;    // NULL 포인터 초기화
+	Node * tail = NULL;
+	Node * cur = NULL;
+
+	Node * newNode = NULL;
+	int readData;
+```
+
+
+
+### 삽입
+
+```C++
+While(1)
+{
+		newNode = (Node*)malloc(sizeof(Node));
+		newNode->data = readData;
+		newNode->next = NULL;
+
+		if (head == NULL) //첫 번째 Node 추가 
+			head = newNode;
+		else // 두 번째 이후 Node 추가과정
+			tail->next = newNode;
+
+		tail = newNode;
+}
+```
+
+
+
+### 조회
+
+```C++
+if (head == NULL)
+	{
+		printf("저장된 자연수가 존재하지 않습니다. \n");
+	}
+	else
+	{
+		cur = head;
+		printf("%d  ", cur->data);   // 첫 번째 데이터 출력
+
+		while (cur->next != NULL)    // 두 번째 이후의 데이터 출력
+		{
+			cur = cur->next;
+			printf("%d  ", cur->data);
+		}
+	}
+```
+
+
+
+### 삭제
+
+```C++
+if (head == NULL)
+	{
+		return 0;    // 해제할 노드가 존재하지 않는다.
+	}
+	else
+	{
+		Node * delNode = head;
+		Node * delNextNode = head->next;
+
+		printf("%d을(를) 삭제합니다. \n", head->data);
+		free(delNode);    // 첫 번째 노드의 삭제
+
+		while (delNextNode != NULL)    // 두 번째 이후의 노드 삭제 위한 반복문
+		{
+			delNode = delNextNode;
+			delNextNode = delNextNode->next;
+
+			printf("%d을(를) 삭제합니다. \n", delNode->data);
+			free(delNode);    // 두 번째 이후의 노드 삭제
+		}
+	}
+```
+
+
+
 ## 연결 리스트의 구분
 
 - 단순 연결 리스트(Singly Linked Linear List)
@@ -62,11 +149,12 @@ typedef struct _node
 
 
 
-## 참고
+## Reference
 
 - [생활코딩 Linked list](https://opentutorials.org/module/1335/8821)
 - [정보통신기술용어해설 ](http://www.ktword.co.kr/abbr_view.php?m_temp1=3979)
 - 윤성우 『열혈자료구조』 , 오렌지미디어 , 2012
+- 아텐츠 게임 아카데미 수업 자료
 
 ------
 

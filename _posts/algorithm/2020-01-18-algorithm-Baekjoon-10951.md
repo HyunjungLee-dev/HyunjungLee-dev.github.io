@@ -1,7 +1,16 @@
 ---
-
 title:  "[algorithm]BAEKJOON 백준 10951번 A+B - 4"
 comments: true
+toc : true
+toc_sticky : true
+categories:
+
+  - algorithm
+    tags:
+  - Baekjoon
+  - C++
+  - algorithm
+---
 
 # Baekjoon Online Judge No.10951
 
