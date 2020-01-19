@@ -56,11 +56,11 @@ typedef struct _node
 
 ## 연결 리스트의 구현
 
-**<연결 리스트의 개념을 이해하기 위한 코드>**
+**연결 리스트의 개념을 이해하기 위한 코드**
 
 ### 초기화
 
-```C++
+```c++
 	Node * head = NULL;    // NULL 포인터 초기화
 	Node * tail = NULL;
 	Node * cur = NULL;
@@ -73,7 +73,7 @@ typedef struct _node
 
 ### 삽입
 
-```C++
+```c++
 While(1)
 {
 		newNode = (Node*)malloc(sizeof(Node));
@@ -93,7 +93,7 @@ While(1)
 
 ### 조회
 
-```C++
+```c++
 if (head == NULL)
 	{
 		printf("저장된 자연수가 존재하지 않습니다. \n");
@@ -115,7 +115,7 @@ if (head == NULL)
 
 ### 삭제
 
-```C++
+```c++
 if (head == NULL)
 	{
 		return 0;    // 해제할 노드가 존재하지 않는다.

@@ -86,7 +86,7 @@ int main()
 
 ### 오류 코드 2
 
-```C++
+```c++
 #include <iostream>
 using namespace std;
 int main()
@@ -108,7 +108,7 @@ int main()
 
 ### 최종 코드
 
-```C++
+```c++
 #include <iostream>//C++
 using namespace std;
  
@@ -158,8 +158,8 @@ int main()
 
 ## Reference
 
-https://lollolzkk.tistory.com/15
+[https://lollolzkk.tistory.com/15](https://lollolzkk.tistory.com/15)
 
-https://takeknowledge.tistory.com/20
+[https://takeknowledge.tistory.com/20](https://takeknowledge.tistory.com/20)
 
 [솔개 블로그](https://9m1i9n1.github.io/devlog/2019/04/04/백준-10951-A+B-4-(입력-종료-조건-없을-때)/)
