@@ -1,5 +1,5 @@
 ---
-title:  "[algorithm]BAEKJOON 백준 1000번 A+B"
+title:  "[algorithm]BAEKJOON 백준 2557번 Hello World"
 comments: true
 toc : true
 toc_sticky : true
@@ -13,7 +13,7 @@ tags:
 
 # Baekjoon Online Judge No.2557
 
-https://www.acmicpc.net/problem/2557
+[https://www.acmicpc.net/problem/2557](https://www.acmicpc.net/problem/2557)
 
 
 
