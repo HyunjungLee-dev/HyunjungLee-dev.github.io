@@ -61,8 +61,6 @@ if (head == NULL) //첫 번째 Node 상황
 
 **<Dummy Node 추가 했을 경우의 코드 변화>**
 
-<img width="511" alt="dummynode" src="https://user-images.githubusercontent.com/54986748/73064218-0eccf480-3ee4-11ea-9283-bc349ba64767.png">
-
 ```c
 head = (Node*)malloc(sizeof(Node)); /*더미노드*/
 tail = head;
@@ -86,7 +84,7 @@ tail = head;
 
 ## 더미노드 기반 연결리스트 구현
 
-#### 헤더 파일의 구현
+**헤더 파일의 구현**
 
 ```c
 #ifndef __D_LINKED_LIST_H__
@@ -132,7 +130,7 @@ void SetSortRule(List * plist, int(*comp)(LData d1, LData d2)); // 정렬 기준
 
 ```
 
-#### 초기화
+**초기화**
 
 ```c
 void ListInit(List * plist)
@@ -144,7 +142,7 @@ void ListInit(List * plist)
 }
 ```
 
-#### 삽입
+**삽입**
 
 ```c
 void LInsert(List * plist, LData data)
@@ -157,7 +155,7 @@ void LInsert(List * plist, LData data)
 
 ```
 
-#### FInsert 구현
+**FInsert 구현**
 
 ```c
 void FInsert(List * plist, LData data)
@@ -172,7 +170,7 @@ void FInsert(List * plist, LData data)
 }
 ```
 
-#### 조회
+**조회**
 
 ```c
 // 더미노드 다음에 오는 노드가 첫 번째 노드
@@ -204,7 +202,7 @@ int LNext(List * plist, LData * pdata)
 
 ```
 
-#### 삭제
+**삭제**
 
 ```c
 LData LRemove(List * plist)
@@ -224,7 +222,7 @@ LData LRemove(List * plist)
 
 cur과 before이 동일한 위치를 가리키게 되어 before 또한 왼쪽으로 이동시켜야 하는 게 아닐까 하는 의문이 있을 수 있는데 before의 위치는 재조정할 필요가 없다. LFirst나 LNext 함수가 호출되면 before는 다시 cur보다 하나 앞선 코드를 가리키게 된다.
 
-#### 데이터  수 검색
+**데이터  수 검색**
 
 ```c
 int LCount(List * plist)
@@ -239,7 +237,7 @@ int LCount(List * plist)
 
 정렬 삽입에 경우 필수 사항은 아니다 하지만 머리에 추가하게 될 경우 1, 2, 3을 순서대로 넣었다고 했을 때 조회하여 출력하면 3, 2, 1 과 같이 역순으로 출력이 되는데 넣은 순서와 출력할 때의 순서를 같게 해주기 위해 즉, 보완을 위해 정렬 기능을 삽입했다고 보면 된다. 여기서 정렬의 기준은 구현 자가 정할 수 있다.
 
-#### SInsert 구현
+**SInsert 구현**
 
 ```c
 void FInsert(List * plist, LData data)
@@ -254,7 +252,7 @@ void FInsert(List * plist, LData data)
 }
 ```
 
-#### 정렬 기준 등록
+**정렬 기준 등록**
 
 ```c
 void SetSortRule(List * plist, int (*comp)(LData d1, LData d2))
@@ -263,7 +261,7 @@ void SetSortRule(List * plist, int (*comp)(LData d1, LData d2))
 }
 ```
 
-#### 정렬 기준을 설정하는 함수 정의
+**정렬 기준을 설정하는 함수 정의**
 
 ```c
 int WhoIsPrecede(int d1, int d2)
