@@ -16,7 +16,7 @@ tags:
 
 # 연결 리스트(Linked List)
 
-- 고정 크기(크기가 정적)의 배열 등에 의해 구현된 [순차 리스트]([https://hyunjunglee-dev.github.io/data%20structure/datastructure-OrderedList/](https://hyunjunglee-dev.github.io/data structure/datastructure-OrderedList/))의 단점을 보완한 자료구조이다.
+- 고정 크기(크기가 정적)의 배열 등에 의해 구현된 [순차 리스트](https://hyunjunglee-dev.github.io/data structure/datastructure-OrderedList/)의 단점을 보완한 자료구조이다.
 - 원소(element)와 원소 간의 **연결(link)**을 이용해서 리스트를 구현한 것이다. 
 
 
