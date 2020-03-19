@@ -286,12 +286,12 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: sigle
+      layout: single
       author_profile: true
       read_time: true
       comments:  true
       share: true
       related: true
 
-      header:
-        image: /assets/images/unsplash-image-3.jpg
+      # header:
+      #   image: /assets/images/unsplash-image-3.jpg
