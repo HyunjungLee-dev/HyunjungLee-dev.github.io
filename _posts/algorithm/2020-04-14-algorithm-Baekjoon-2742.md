@@ -1,5 +1,5 @@
 ---
-title:  "[algorithm]BAEKJOON 백준 2742번 기찍 N "
+title:  "[algorithm]BAEKJOON 백준 2742번  N찍기 "
 comments: true
 toc : true
 toc_sticky : true
